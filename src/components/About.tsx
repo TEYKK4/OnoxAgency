@@ -1,8 +1,6 @@
-import { Button } from './button.tsx';
 import {Avatar} from "./avatar.tsx"
 import {AtomIcon} from "../assets/atom-icon.tsx"
 import {BeeIcon} from "../assets/bee-icon.tsx"
-import {CircleArrowRightIcon} from "../assets/circle-arrow-right-icon.tsx"
 import {ClubsIcon} from "../assets/clubs-icon.tsx"
 
 function GuidanceCard() {
@@ -16,14 +14,6 @@ function GuidanceCard() {
                 <p className="text-base text-slate-500">
                     Get expert advice tailored to your dreams and goals. Our experienced team is here to make your study abroad journey stress-free.
                 </p>
-                <Button
-                    size="large"
-                    variant="text"
-                    className="p-0"
-                    endAdornment={<CircleArrowRightIcon className="size-6 stroke-inherit" />}
-                >
-                    Learn More
-                </Button>
             </div>
         </div>
     );
@@ -40,14 +30,6 @@ function UniversityCard() {
                 <p className="text-base text-slate-500">
                     Choose from the best educational institutions across the globe. We help you find the perfect fit for your academic aspirations.
                 </p>
-                <Button
-                    size="large"
-                    variant="text"
-                    className="p-0"
-                    endAdornment={<CircleArrowRightIcon className="size-6 stroke-inherit" />}
-                >
-                    Learn More
-                </Button>
             </div>
         </div>
     );
@@ -64,14 +46,6 @@ function ProcessCard() {
                 <p className="text-base text-slate-500">
                     From application to visa assistance, we handle all the details. Focus on your future while we take care of the rest.
                 </p>
-                <Button
-                    size="large"
-                    variant="text"
-                    className="p-0"
-                    endAdornment={<CircleArrowRightIcon className="size-6 stroke-inherit" />}
-                >
-                    Learn More
-                </Button>
             </div>
         </div>
     );

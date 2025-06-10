@@ -11,7 +11,7 @@ function AzColumn() {
             </p>
             <div className="flex flex-col gap-4">
                 <div className="text-sm leading-tight text-slate-500">
-                    +48 48999999999
+                    +48 999999999
                 </div>
             </div>
         </div>
@@ -26,7 +26,7 @@ function BlColumn() {
             </p>
             <div className="flex flex-col gap-4">
                 <div className="text-sm leading-tight text-slate-500">
-                    +48 48999999999
+                    +48 999999999
                 </div>
             </div>
         </div>
@@ -41,7 +41,7 @@ function UkrColumn() {
             </p>
             <div className="flex flex-col gap-4">
                 <div className="text-sm leading-tight text-slate-500">
-                    +4848999999999
+                    +48 999999999
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@ function UzColumn() {
             </p>
             <div className="flex flex-col gap-4">
                 <div className="text-sm leading-tight text-slate-500">
-                    +48 48999999999
+                    +48 999999999
                 </div>
             </div>
         </div>
@@ -71,7 +71,7 @@ function KyColumn() {
             </p>
             <div className="flex flex-col gap-4">
                 <div className="text-sm leading-tight text-slate-500">
-                    +48 48999999999
+                    +48 999999999
                 </div>
             </div>
         </div>
@@ -81,7 +81,7 @@ function KyColumn() {
 function Copyright() {
     return (
         <p className="text-xs text-slate-500">
-            © ONOX 2024
+            © ONOX 2025
         </p>
     );
 }
@@ -111,11 +111,11 @@ export default function Preview() {
             >
                 <Copyright/>
                 <div className="flex gap-8">
-                    <Button variant="text" size="small" iconOnly aria-label="facebook" href="https://www.facebook.com">
-                        <FacebookCircleIcon/>
-                    </Button>
+                    {/*<Button variant="text" size="small" iconOnly aria-label="facebook" href="https://www.facebook.com">*/}
+                    {/*    <FacebookCircleIcon/>*/}
+                    {/*</Button>*/}
                     <Button variant="text" size="small" iconOnly aria-label="instagram"
-                            href="https://www.instagram.com">
+                            href="https://www.instagram.com/onoxazerbaijan/">
                         <InstagramIcon/>
                     </Button>
                 </div>

@@ -2,7 +2,7 @@ import {Accordion} from './accordion.tsx';
 
 export default function Faq() {
     return (
-        <div className="bg-[#f7f7f7]">
+        <div>
             <section
                 className="max-w-screen-2xl m-auto w-full px-3 sm:px-8 lg:px-16 xl:px-32 flex flex-col gap-12 py-12 2xl:py-16">
                 <div className="flex justify-between">
@@ -34,8 +34,7 @@ export default function Faq() {
                     <Accordion
                         items={[
                             {
-                                content: <p>Click the “Apply Now” button on our website, fill in the application form,
-                                    and our team will contact you within 24 hours.</p>,
+                                content: <p>Contact us, and we will guide you through the entire application process.</p>,
                                 label: 'How do I apply to a university through ONOX?'
                             },
                             {
@@ -72,8 +71,7 @@ export default function Faq() {
                                 label: 'Can I apply to a university not listed on the website?'
                             },
                             {
-                                content: <><p>You can reach us via email, phone, or the “Contact Us” section on our
-                                    website.</p></>,
+                                content: <><p>You can reach us via email, phone.</p></>,
                                 label: 'How do I contact ONOX?'
                             },
                             {

@@ -7,7 +7,6 @@ import About from "./components/About.tsx";
 function App() {
     return (
     <>
-        <Header></Header>
         <Preview></Preview>
         <About></About>
         <Faq></Faq>
