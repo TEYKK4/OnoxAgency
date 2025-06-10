@@ -1,5 +1,4 @@
 import {Button} from './button.tsx';
-import {FacebookCircleIcon} from "../assets/facebook-circle-icon.tsx"
 import {InstagramIcon} from "../assets/instagram-icon.tsx"
 import {Divider} from "./divider.tsx";
 
